@@ -1,0 +1,39 @@
+
+li,ul {
+    list-style: none;
+    padding: 0;
+    border-radius: 0;
+    
+}
+.imgPokemon{
+    width: 30rem;
+    background-color: #fff7;
+    border-radius: 1rem;
+
+}
+.App{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(128, 196, 241, 0.267);
+}
+.cardpokemon_data{ 
+background-color: rgb(100, 161, 141);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+border-radius: 1rem;
+}
+.form_buttom{
+    padding: 1rem;
+    z-index: 100;
+}
+.imgPokemon:hover{
+    transform: scale(1.2); 
+
+}
